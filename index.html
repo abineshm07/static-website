@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROFISSIONAL GYM</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href=https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"></script> -->
+    
+  </head>
+<body>
+    <section id="header">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                 <img src="images/logo.png" alt="VO GYM"> 
+                </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse d-md-flex justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Facilities</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Classes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">FAQ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </section>
+    <section id="welcome">
+      <div class="container">
+        <div class="welcome text-center">
+           <h1>NO CONTRACT - LEAVE ANYTIME</h1>
+           <p>Our membership are flexible so it's easy to leave and join again whenever you want.</p>
+           <button type="button" class="btn read-more">Find out more</button>
+         </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center">
+            <img src="images/home.jpg" alt="">
+          </div>
+          <div class="col-md-5 about-content">
+            <h3>New Year, New Start</h3>
+            <p>If you've been planted in the couch cushions for the last few weeks or your workout regimen has slipped here's how to start excercising again and setanlish an exercise routine you'll actually stick with.</p>
+            <ul>
+              <li>Make new habits.</li>
+              <li>Plan out your mornings.</li>
+              <li>Make one change at a time</li>
+              <li>Overcome your fear of the gym.</li>
+              <li>Expect to fall.</li>
+              <li>Look beyond weight loss.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+  $(function () {
+    $(document).scroll(function () {
+      var $nav = $(".fixed-top");
+      $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height() );
+    });
+  });
+</script>
+</body>
+</html>
